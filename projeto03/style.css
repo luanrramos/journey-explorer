@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body{
+    background: url(https://i.ibb.co/RzkSLtp/background-image.jpg) no-repeat center/cover;
+    height: 100vh;
+    text-align: center; 
+    font-family: 'Spectral', serif;
+    display: grid;
+    place-content: center;
+    font-style: normal;
+  }
+  
+  span{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120px;
+    color: #5EEAD4;
+  }
+  
+  .main{
+    color: #EBF1FB;
+  }
+  
+  h1{
+    padding-bottom: 4px;
+    font-family: 'Beth Ellen', serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 120px;
+  }
+  p{
+    
+    margin-bottom: 72px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  a{
+    color: #EBF1FB;
+    padding: 16px 32px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px; 
+  
+  }
+  .btn-primary:hover, .btn-secondary{
+    text-decoration: none;
+    background-color: #5EEAD4;
+    color: black;
+    border-radius: 10px 10px;
+  }
+  .btn-primary{
+    font-weight: 200;
+  }
+  .btn-secondary:hover{
+    background-color: #52a397;
+  }
+  
+  
